@@ -1,0 +1,13 @@
+[programs.devnet]
+gifs = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/kaichaosun/.config/solana/id.json"
+
+[scripts]
+# test = "mocha -t 1000000 tests/"
+test = "node tests/gifs.js"
